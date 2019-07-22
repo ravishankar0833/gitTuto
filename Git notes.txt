@@ -1,0 +1,64 @@
+git init
+git status
+git add -A
+git status
+
+remove fiels from staging area
+git reset filename
+git reset(remove all files from staggin area)
+
+first commit
+git add -A
+git commit -m "Intial commit"
+git status
+git log (commit made recently with hash code)
+
+cloning a remote repo
+git clone <url> <where to clone>
+
+view info abt remote repo
+git remote -v
+git branch -a
+
+commit and push code to remote repo
+change the file that is to be commited
+git diff
+git status
+git add -A
+git commit -m "modified file"
+
+then push:
+git pull origin master
+git push origin master
+
+after commit push branch to remote
+git push -u origin subtract
+git branch-a
+
+merge branch to remote
+git checkout master
+git pull origin master
+git branch --merged
+git merge cal-divide
+git push origin master
+
+deleting a branch
+git branch --merged
+git branch -d calc-division
+git branch -a
+git push origin --delete calc-divide
+
+creating branch and push code to master
+git branch subtract
+git checkout subtract
+git branch
+git status
+git add -A
+git commit -m "Subtract"
+git push -u origin subtract
+git checkout master
+git pull origin master
+git merge subtract
+git push origin master
+
+
